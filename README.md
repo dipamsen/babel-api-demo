@@ -4,7 +4,7 @@ This is a simple example demonstrating how to use the Babel parser to parse a si
 
 The React app renders a 'scope tree' from the parsed AST of the JavaScript file. This is a visual representation of the all the scopes, and the bindings within them.
 
-![image](https://gist.github.com/user-attachments/assets/dd60573b-c5f4-4ee0-8ef0-6cc324d7d79f)
+![image](https://github.com/user-attachments/assets/cdcfedb7-17d7-4b65-b71b-1edc9a99a0f3)
 
 Since Babel's API is not very well documented, this serves as a simple example which shows using the API to get scope information from the AST.
 
