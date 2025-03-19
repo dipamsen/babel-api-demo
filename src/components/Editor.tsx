@@ -5,32 +5,6 @@ import { indentWithTab } from "@codemirror/commands";
 import { StateEffect } from "@codemirror/state";
 import { javascript } from "@codemirror/lang-javascript";
 
-const sketch = `
-let mover;
-
-function setup() {
-  createCanvas(400, 400);
-
-  mover = new Mover();
-
-  let x, y, z;
-}
-
-function draw() {
-  background(220);
-  ellipse(200, 200, 50, 50);
-
-  mover.show();
-
-  let a, b, c;
-
-  if (a > b) {
-    let veryLongVariableName = 10;
-    let x = 20;
-  }
-}
-`;
-
 export default function Editor({
   handleCodeChange,
   code,
@@ -44,7 +18,7 @@ export default function Editor({
   useEffect(() => {
     if (!e.current) return;
     const view = new EditorView({
-      doc: sketch,
+      doc: code,
       parent: e.current!,
       extensions: [basicSetup, keymap.of([indentWithTab]), javascript()],
     });

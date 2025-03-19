@@ -1,4 +1,4 @@
-# Docs about Babel's AST nodes and their properties
+# Docs about Babel's API
 
 - [`NodePath`](./NodePath.md) - Documentation for the `NodePath` class.
 - [`Scope`](./Scope.md) - Documentation for the `Scope` class.
@@ -12,3 +12,4 @@
 - [Babel Plugin Handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md)
 - [Babel AST Explorer](https://astexplorer.net/)
 - [Babel Types](https://babeljs.io/docs/babel-types)
+- [TypeDoc - Babel (Auto generated docs)](https://babel-standalone-docs.vercel.app/)
