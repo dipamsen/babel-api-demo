@@ -1,8 +1,8 @@
 # Docs about Babel's API
 
-- [`NodePath`](./NodePath.md) - Documentation for the `NodePath` class.
-- [`Scope`](./Scope.md) - Documentation for the `Scope` class.
-- [`Binding`](./Binding.md) - Documentation for the `Binding` class.
+- [`NodePath`](./nodepath.md) - Documentation for the `NodePath` class.
+- [`Scope`](./scope.md) - Documentation for the `Scope` class.
+- [`Binding`](./binding.md) - Documentation for the `Binding` class.
 
 - [Scope Types](./scopetypes.md) - List of node types that create a new scope.
 - [Declaration Types](./declarationtypes.md) - List of node types that declare a new binding.
